@@ -1,0 +1,54 @@
+.form {
+  margin: 1rem 0;
+  height: 17rem;
+  overflow: auto;
+}
+
+.control {margin-bottom: 0.5rem;}
+.control label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+.control input {
+  display: block;
+  max-width: 100%;
+  width: 20rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
+
+.action {
+  text-align: right;
+  margin-top: 2rem;
+}
+.action button {
+  border: 1px solid var(--main-color);
+  border-radius: 999px;
+  background-color: transparent;
+  margin-left: 1rem;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+.action button:hover, .action button:active {
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  color: #fff;
+}
+
+.action .button {
+  background-color: var(--main-color);
+  color: #fff;
+}
+.action .button-outline {color: var(--main-color);}
+
+.invalid input {
+  border-color: #ff1100;
+  background-color: #ffdbd9;
+}
+.invalid p {
+  font-size: 0.8rem;
+  color: #ff1100;
+  margin: 0.3rem auto 1.5rem auto;
+}

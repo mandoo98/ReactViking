@@ -1,0 +1,47 @@
+{
+  "meals": {
+    "m1": {
+      "description": "Finest fish and veggies",
+      "name": "Sushi",
+      "price": 22.99
+    },
+    "m2": {
+      "description": "A german specialty!",
+      "name": "Schnitzel",
+      "price": 16.5
+    },
+    "m3": {
+      "description": "American, raw, meaty",
+      "name": "Barbecue Burger",
+      "price": 12.991
+    },
+    "m4": {
+      "description": "Healthy...and green...",
+      "name": "Green Bowl",
+      "price": 18.993
+    }
+  },
+  "orders": {
+    "-NXsDUyT_TlNHhNVi8ll": {
+      "orderItems": [
+        {
+          "amount": 2,
+          "id": "m1",
+          "name": "Sushi",
+          "price": 22.99
+        },
+        {
+          "amount": 1,
+          "id": "m2",
+          "name": "Schnitzel",
+          "price": 16.5
+        }
+      ],
+      "user": {
+        "address": "서울시 강남구 역삼동",
+        "name": "ㅇㅅㅇ",
+        "tel": "12345678910"
+      }
+    }
+  }
+}

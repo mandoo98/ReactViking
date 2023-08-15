@@ -1,0 +1,15 @@
+.summary {
+  position: relative;
+  max-width: 45rem;
+  width: 90%;
+  color: #fff;
+  background-color: #333;
+  border-radius: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0,0,0,0.3);
+  margin: -10rem auto auto; /* 16px * 10 = 16px */
+  padding: 1rem;
+}
+.summary h2 {
+  font-weight: 2rem;
+  margin-top: 0.2rem;
+}
