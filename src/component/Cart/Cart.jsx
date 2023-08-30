@@ -48,7 +48,7 @@ const Cart = (props) => {
   // 입력한 데이터를 firebase에 보내는 함수
   const submitOrderHandler = (userData) => {
     // Cart.jsx에서 props로 input에 입력한 값을 받아옴
-    console.log("userData: ", userData);
+    // console.log("userData: ", userData);
   };
 
   // 버튼 부분을 가져와서 상수로

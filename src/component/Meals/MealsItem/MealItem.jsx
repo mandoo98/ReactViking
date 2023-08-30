@@ -13,8 +13,6 @@ const MealItem = (props) => {
   //  인자값은 MealItemForm에서 value를 받아옴
 
   const addToCartHandler = (amount) => {
-    console.log("수량은?: ", amount);
-
     // 여기서 addItem을 가져와서 작동시킴
     cartCtx.addItem({
       id: props.id,

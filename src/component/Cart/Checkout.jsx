@@ -16,7 +16,6 @@ const Checkout = (props) => {
   const nameInputRef = useRef();
   const addressInputRef = useRef();
   const telInputRef = useRef();
-  console.log("useRef는? ", nameInputRef.current);
 
   // 입력한 데이터를 백엔드에 넘겨주는 함수
   const confirmHandler = (e) => {
